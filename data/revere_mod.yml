@@ -1,0 +1,41 @@
+units: 
+    - id: block_group
+      column_sets:  
+          - name: Population
+            subgroups: 
+                - key: NH_WHITE
+                  name: White population
+                - key: NH_BLACK
+                  name: Black population
+                - key: NH_AMIN
+                  name: American Indian population
+                - key: NH_ASIAN
+                  name: Asian population
+                - key: NH_NHPI
+                  name: Other races
+                - key: NH_2MORE
+                  name: Two or more races
+                - key: HISP
+                  name: Hispanic population
+                - key: H_WHITE
+                  name: Hispanic White population
+                - key: H_BLACK
+                  name: Hispanic Black population
+                - key: H_AMIN
+                  name: Hispanic American Indian population
+                - key: H_ASIAN
+                  name: Hispanic Asian population
+                - key: H_NHPI
+                  name: Hispanic and 2 or more other races population
+            total: 
+                key: TOTPOP
+                name: Total population
+            type: population
+      id_column: 
+          key: GEOID
+          name: Block Group Unique Identifier
+      unit_type: block_group
+      source: ./shapes/MA_towns/Revere_final_5percent.shp
+id: revere
+name: Revere
+state: Massachusetts
