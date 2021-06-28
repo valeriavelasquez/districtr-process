@@ -1,5 +1,4 @@
 units: 
-    - id: block_group
       column_sets:  
           - name: Population
             subgroups: 
