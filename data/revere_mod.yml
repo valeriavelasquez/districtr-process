@@ -35,7 +35,11 @@ units:
           key: GEOID
           name: Block Group Unique Identifier
       unit_type: block_group
-      source: ./shapes/MA_towns/Revere_final_5percent.shp
+      source: ./shapes/revere_w_districts
 id: revere
 name: Revere
 state: Massachusetts
+districting_problems:
+    - name: City Council
+      number_of_parts: 6
+      plural_noun: City Council Districts
