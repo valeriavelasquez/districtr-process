@@ -11,8 +11,6 @@ units:
                   name: American Indian population
                 - key: NH_ASIAN
                   name: Asian population
-                - key: NH_NHPI
-                  name: Other races
                 - key: HISP
                   name: Hispanic population
                 - key: H_WHITE
