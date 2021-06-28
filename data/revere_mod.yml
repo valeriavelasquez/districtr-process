@@ -1,5 +1,6 @@
 units: 
-     - column_sets:  
+    - id: block_group
+      column_sets:  
           - name: Population
             subgroups: 
                 - key: NH_WHITE
@@ -12,6 +13,8 @@ units:
                   name: Asian population
                 - key: NH_NHPI
                   name: Other races
+                - key: NH_2MORE
+                  name: Two or more races
                 - key: HISP
                   name: Hispanic population
                 - key: H_WHITE
