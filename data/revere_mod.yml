@@ -23,7 +23,6 @@ units:
                   name: Hispanic American Indian population
                 - key: H_ASIAN
                   name: Hispanic Asian population
-                - key: H_NHPI
             total: 
                 key: TOTPOP
                 name: Total population
