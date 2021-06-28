@@ -12,8 +12,6 @@ units:
                   name: Asian population
                 - key: NH_NHPI
                   name: Other races
-                - key: NH_2MORE
-                  name: Two or more races
                 - key: HISP
                   name: Hispanic population
                 - key: H_WHITE
