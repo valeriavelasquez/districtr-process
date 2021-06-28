@@ -31,7 +31,7 @@ units:
           key: GEOID
           name: Block Group Unique Identifier
       unit_type: block_group
-      source: ./shapes/revere_w_districts.shp
+      source: ./shapes/revere_map.shp
 id: revere
 name: Revere
 state: Massachusetts
